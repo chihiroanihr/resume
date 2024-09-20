@@ -1,18 +1,18 @@
-# kawamataryo's resume
+# RHINA KIM's Resume (forked from @kawamataryo)
 
 
-[![textlint](https://img.shields.io/github/actions/workflow/status/kawamataryo/resume/lint-text.yml?label=textlint&logo=github&color=yellow)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22lint+text%22)
-[![build pdf](https://img.shields.io/github/actions/workflow/status/kawamataryo/resume/build-pdf.yml?label=build%20pdf&logo=github)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22build+pdf%22)
-[![create issue](https://img.shields.io/github/actions/workflow/status/kawamataryo/resume/create-issue.yml?label=create%20issue&logo=github&color=orange)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22create+issue%22)
-[![release date](https://img.shields.io/github/release-date/kawamataryo/resume?color=blue&logo=github)](https://github.com/kawamataryo/resume/releases)
+[![textlint](https://img.shields.io/github/actions/workflow/status/chihiroanihr/resume/lint-text.yml?label=textlint&logo=github&color=yellow)](https://github.com/chihiroanihr/resume/actions?query=workflow%3A%22lint+text%22)
+[![build pdf](https://img.shields.io/github/actions/workflow/status/chihiroanihr/resume/build-pdf.yml?label=build%20pdf&logo=github)](https://github.com/chihiroanihr/resume/actions?query=workflow%3A%22build+pdf%22)
+[![create issue](https://img.shields.io/github/actions/workflow/status/chihiroanihr/resume/create-issue.yml?label=create%20issue&logo=github&color=orange)](https://github.com/chihiroanihr/resume/actions?query=workflow%3A%22create+issue%22)
+[![release date](https://img.shields.io/github/release-date/chihiroanihr/resume?color=blue&logo=github)](https://github.com/chihiroanihr/resume/releases)
 
-[ English | [日本語](https://github.com/kawamataryo/resume/blob/master/README.ja.md) ]
+[ English | [日本語](https://github.com/chihiroanihr/resume/blob/master/README.ja.md) ]
 
 ## Data
 
-- [GitHub Pages](https://kawamataryo.github.io/resume/)  
-- [PDF](https://github.com/kawamataryo/resume/releases)  
-- [File](https://github.com/kawamataryo/resume/blob/master/docs/index.md)  
+- [GitHub Pages](https://chihiroanihr.github.io/resume/)  
+- [PDF](https://github.com/chihiroanihr/resume/releases)  
+- [File](https://github.com/chihiroanihr/resume/blob/master/docs/index.md)  
 ## Features
 
 ### 💅 Lint text

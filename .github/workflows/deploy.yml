@@ -1,29 +1,37 @@
+# This workflow deploys the VitePress site to GitHub Pages, a static documentation site.
 name: Deploy VitePress site to Pages
 
+# Triggers on Push to Main or Master Branch:
+# This workflow is triggered when changes are pushed to the main or master branch, or manually via workflow_dispatch.
 on:
   push:
     branches: [main, master]
   workflow_dispatch:
   schedule:
-    - cron:  '0 0 * * 0'
+    - cron:  '0 0 * * 0' # It also runs on a schedule (0 0 * * 0): it deploys the site automatically every Sunday at midnight.
 
+# Sets permissions for the workflow to read contents and write to GitHub Pages.
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Concurrency Group: Ensures that only one deployment job runs at a time.
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
+  # Build: This job runs on Ubuntu, checks out the code, installs Node.js and dependencies, and builds the site with VitePress using yarn run docs:build.
   build:
     runs-on: ubuntu-latest
     steps:
+      # Checks out the code
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      # Install Node.js and dependencies
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -33,6 +41,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      # Builds the site with VitePress using yarn run docs:build
       - name: Build with VitePress
         run: yarn run docs:build
       - name: Upload artifact
@@ -40,6 +49,7 @@ jobs:
         with:
           path: docs/.vitepress/dist
 
+  # Deploy: This step deploys the built site to GitHub Pages using actions/deploy-pages@v4.
   deploy:
     environment:
       name: github-pages

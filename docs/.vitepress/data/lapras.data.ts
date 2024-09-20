@@ -25,7 +25,7 @@ export { data }
 export default defineLoader({
   async load(): Promise<Data> {
     try {
-      const res = await ofetch<LaprasResponse>('https://lapras.com/public/kawamataryo.json')
+      const res = await ofetch<LaprasResponse>('https://lapras.com/public/rhina-kim.json')
       const zennArticles = await Promise.all(res.zenn_articles.slice(0, 10).map(async article => ({
         ...article,
         ogImage: await getOgImage(article.url)

@@ -1,5 +1,8 @@
+# This workflow is responsible for linting text files in your repository,
+# ensuring that they follow defined rules for grammar, spelling, and formatting.
 name: lint text
 
+# Trigger on Push: This workflow runs whenever a new commit is pushed to the repository.
 on:
   push:
 
@@ -8,11 +11,12 @@ jobs:
     name: lint text
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4 # Checkout the repository
+      - uses: actions/setup-node@v4 # Install Node.js and Dependencies: It sets up Node.js and installs project dependencies via Yarn.
         with:
           node-version-file: 'package.json'
           cache: 'yarn'
       - run: yarn install
+      # Lint Text: Runs a linting command (yarn run lint) to check for text errors in the project.
       - name: lint text
         run: yarn run lint

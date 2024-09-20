@@ -8,35 +8,66 @@ layout: doc
 
 ## 基本情報
 
-|key|value|
-|---|---|
-|氏名|川俣 涼（Kawamata Ryo）|
-|生年月日|1989/04/25|
-|居住地|茨城県|
-|最終学歴|立命館大学経営学部卒|
+| key      | value                                                         |
+| -------- | ------------------------------------------------------------- |
+| 氏名     | 金　悧娜（Rhina Kim）                                         |
+| 生年月日 | 1999/03/03                                                    |
+| 居住地   | 東京 :left_right_arrow: モントリオール                        |
+| 最終学歴 | コンコルディア大学 工学部 コンピュータサイエンス科 (Co-op) 卒 |
 
 
 ## 各種アカウント
 
+#### ポートフォリオ
+
+<!-- Portfolio Website -->
+<div>
+  <a href="https://chihiroanihr-portfolio.vercel.app/" style="font-weight: bold; display: flex; gap: 4px; max-width: fit-content; align-items: center; padding: 5px 7px; text-decoration: none; color: #7F6350; border: 1px solid #E2E2E3; border-radius: 2px;">
+    <img src="https://chihiroanihr-portfolio.vercel.app/assets/logo-110f07e6.png" alt="Image description" width="28"/>
+    RHINA's Portfolio Website
+  </a>
+
+  <p style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+    <!-- Github -->
+    <a href="https://github.com/chihiroanihr" target="_blank"><img alt="Github" src="https://img.shields.io/badge/chihiroanihr-12100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+    <!-- Devpost -->
+    <a href="https://devpost.com/chihiroanihr" target="_blank"><img alt="Devpost" src="https://img.shields.io/badge/chihiroanihr-003E54.svg?&style=flat-square&logo=Devpost&logoColor=white" /></a>
+    <!-- Lapras -->
+    <a href="https://lapras.com/public/rhina-kim" target="_blank"><img alt="Lapras" src="https://img.shields.io/badge/chihiroanihr-123379.svg?&style=flat-square&logo=https://github.com/chihiroanihr/resume/blob/master/docs/public/logos/lapras-logo.png&logoColor=white" /></a>
+  </p>
+</div>
+
+#### ソーシャル
+
 <p style="display: flex; gap: 8px; flex-wrap: wrap;">
-  <a href="https://github.com/kawamataryo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/kawamataryo-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-  <a href="https://twitter.com/KawamataRyo" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@KawamataRyo-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
-  <a href="https://qiita.com/ryo2132" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/ryo2132-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
-  <a href="https://zenn.dev/ryo_kawamata" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ryo_kawamata-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white" /></a>
-  <a href="https://speakerdeck.com/kawamataryo" target="_blank"><img alt="SpeakerDeck" src="https://img.shields.io/badge/kawamataryo-009287.svg?&style=flat-square&logo=SpeakerDeck&logoColor=white" /></a>
+  <!-- X -->
+  <a href="https://x.com/chihiroanihr" target="_blank"><img alt="X" src="https://img.shields.io/badge/@chihiroanihr-000000.svg?&style=flat-square&logo=x&logoColor=white" /></a> 
+  <!-- Qiita -->
+  <a href="https://qiita.com/chihiroanihr" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/chihiroanihr-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
+  <!-- Zenn -->
+  <a href="https://zenn.dev/chihiroanihr" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/chihiroanihr-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white" /></a>
+  <!-- Medium -->
+  <a href="https://medium.com/@chihiroanihr" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/@chihiroanihr-000000.svg?&style=flat-square&logo=Medium&logoColor=white" /></a>
+  <!-- Note.com -->
+  <a href="https://note.com/chihiroanihr" target="_blank"><img alt="Note" src="https://img.shields.io/badge/chihiroanihr-f0f0f0.svg?&style=flat-square&logo=https://github.com/chihiroanihr/resume/blob/master/docs/public/logos/note-logo.png&logoColor=white" /></a>
+  <!-- Behance -->
+  <a href="https://www.behance.net/chihiroanihr" target="_blank"><img alt="Behance" src="https://img.shields.io/badge/chihiroanihr-0057FF.svg?&style=flat-square&logo=Behance&logoColor=white" /></a>
+  <!-- Dribbble -->
+  <a href="https://dribbble.com/chihiroanihr" target="_blank"><img alt="Dribbble" src="https://img.shields.io/badge/chihiroanihr-EA4C89.svg?&style=flat-square&logo=Dribbble&logoColor=white" /></a>
+
+  <!-- Speaker Deck -->
+  <!-- <a href="https://speakerdeck.com/chihiroanihr" target="_blank"><img alt="SpeakerDeck" src="https://img.shields.io/badge/chihiroanihr-009287.svg?&style=flat-square&logo=SpeakerDeck&logoColor=white" /></a> -->
 </p>
 
 ## 職務経歴
 
-:::details 2021/03〜現在      [LAPRAS株式会社](https://corp.lapras.com/)
+:::details 2023/07〜現在      [Gokoo](https://www.gokoo.ca/)
 
 AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 開発リソースが限られる中で、ユーザーの利便性を高める追加機能の設計・実装を主導。得意とするフロントエンド開発の経験を活かして、フロントエンドの改善活動をリード。また、モブプログラミングのライブ配信への出演やフルリモート環境で気軽に質問できる bot 開発などを通して、良い組織作りへの貢献も行っている。
 
-※ 2023/03〜2024/03は第二子育児のため育休を取得
-
 - **プロジェクト規模：**
-  - 3〜5 人チームでのスクラム開発
+  - 3人チームでのスクラム開発
 - **使用技術：**
   - TypeScript, Vue.js, Python, Django, gRPC, Docker, Kubernetes, CircleCI, GitHub Actions
 - **担当プロジェクト：**
@@ -127,32 +158,32 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 
 <div>
 
-|言語|業務経験|
-|---|---|
-|<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|6年|
-|<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />|6年|
-|<img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />|3年|
-|<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|3年|
-|<img alt="Elixir" src="https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=Elixir&logoColor=white" />|1年|
-|<img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white" />|1年|
-|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|1年|
+| 言語                                                                                                                             | 業務経験 |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> | 6年      |
+| <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" /> | 6年      |
+| <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />                   | 3年      |
+| <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />             | 3年      |
+| <img alt="Elixir" src="https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=Elixir&logoColor=white" />             | 1年      |
+| <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-0095D5?style=flat-square&logo=Kotlin&logoColor=white" />             | 1年      |
+| <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />                   | 1年      |
 
 </div>
 
 <div>
 
-|フレームワーク|業務経験|
-|---|---|
-|<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />|6年|
-|<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />|3年|
-|<img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />|3年|
-|<img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />|3年|
-|<img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />|1年|
-|<img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />|1年|
-|<img alt="Firebase" src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" />|3年|
-|<img alt="Gatsby" src="https://img.shields.io/badge/-Gatsby-663399?style=flat-square&logo=Gatsby&logoColor=white" />|1年|
-|<img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white" />|2年|
-|<img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />|6年|
+| フレームワーク                                                                                                                         | 業務経験 |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />                      | 6年      |
+| <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />                      | 3年      |
+| <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />      | 3年      |
+| <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />                   | 3年      |
+| <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" /> | 1年      |
+| <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />                | 1年      |
+| <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" />             | 3年      |
+| <img alt="Gatsby" src="https://img.shields.io/badge/-Gatsby-663399?style=flat-square&logo=Gatsby&logoColor=white" />                   | 1年      |
+| <img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white" />                         | 2年      |
+| <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />                   | 6年      |
 
 </div>
 </div>
@@ -167,6 +198,15 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 - 勉強会、社内学習のコミュニティ形成
 - アジャイル、スクラム開発の進行
 - 未経験技術への迅速なキャッチアップ、アウトプット
+
+## 語学力
+
+- 日本語：ネイティブレベル
+- 英語：ネイティブレベル
+- 韓国語：ネイティブレベル
+- フランス語：日常会話レベル
+
+※ ネイティブレベル：会話、文書読解、ビジネス文書作成、プレゼン、会議、メール交換可能
 
 ## 意欲・興味
 
@@ -224,17 +264,6 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
   - 担当：実装
   - 使用技術：TypeScript, React
   - BugFix, 新機能のフロントエンド実装を担当
-
-### 勉強会の主催
-
-- **茨城県水戸市にて勉強会を企画・運営**
-  - Ibaraki.dev（開催回数 50 回、 メンバー 102 人）
-  - [https://mito-web-engineer.connpass.com/](https://mito-web-engineer.connpass.com/)
-- **社内・社外勉強会の企画・運営**
-  - もくテク powerd by Misoca
-  - フロントエンド輪読回（Vue Composition API ドキュメント , JavaScript Promise の本輪読回、 Jest 公式ドキュメント、 TypeScript 公式ドキュメント）
-  - Go ではじめるインタプリタ輪読回
-
 
 ### その他
 

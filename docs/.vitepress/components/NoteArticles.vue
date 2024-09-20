@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentsContainer :contents="contents" more-link="https://note.com/ryo_kawamata"/>
+    <ContentsContainer :contents="contents" more-link="https://note.com/chihiroanihr"/>
   </div>
 </template>
 

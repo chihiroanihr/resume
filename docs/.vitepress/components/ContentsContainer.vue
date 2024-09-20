@@ -26,7 +26,7 @@
 import { computed, ref } from 'vue'
 import { useScroll } from '@vueuse/core';
 
-type content = {
+type Content = {
   isOverlayTitle: boolean
   title: string
   url: string
@@ -34,7 +34,7 @@ type content = {
 }
 
 defineProps<{
-  contents: content[]
+  contents: Content[]
   moreLink: string
 }>()
 
