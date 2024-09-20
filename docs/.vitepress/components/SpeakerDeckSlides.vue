@@ -8,12 +8,12 @@
 import { data } from '../data/lapras.data.ts'
 import ContentsContainer from './ContentsContainer.vue';
 
-const contents = data.speakerDeckSlides.map((slide) => {
+const contents = data.speakerDeckSlides.map((article) => {
   return {
     isOverlayTitle: false,
-    title: slide.title,
-    url: slide.url,
-    ogImage: slide.ogImage as string
+    title: article.title,
+    url: article.url,
+    ogImage: article.ogImage as string
   }
 })
 </script>

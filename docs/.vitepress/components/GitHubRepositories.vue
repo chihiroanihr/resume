@@ -31,8 +31,13 @@
 <script setup lang="ts">
 import { data } from '../data/lapras.data.ts'
 const repositories = data.githubRepositories
+
+// If the icon image did not load:
+// REFER TO: https://devicon.dev/
+// Then search for your icon name, click on the icon, and on the left bar under the section "SVG versions" copy its link.
 const deviconSrc = (name: string) => {
   let langName = name.toLowerCase()
+  let iconType = 'original';
   switch (langName) {
     case 'html':
       langName = 'html5'
@@ -52,8 +57,15 @@ const deviconSrc = (name: string) => {
     case 'scss':
       langName = 'sass'
       break
+    case 'less':
+      langName = 'less'
+      iconType = 'plain-wordmark'
+      break
+    case 'dockerfile':
+      langName = 'docker'
+      break
   }
-  return `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${langName}/${langName}-original.svg`
+  return `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${langName}/${langName}-${iconType}.svg`
 }
 
 </script>

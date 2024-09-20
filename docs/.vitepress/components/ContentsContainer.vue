@@ -1,24 +1,34 @@
 <template>
   <div class="relative">
-    <div class="overflow-x-auto whitespace-nowrap flex" ref="scrollContainer">
+    <!-- If contents.length is 0, display "No output yet..." -->
+    <div v-if="contents.length === 0" class="px-5 py-2 text-gray-400">
+      No output yet.
+    </div>
+    <!-- If contents exist, render the content list -->
+    <div v-else class="overflow-x-auto whitespace-nowrap flex" ref="scrollContainer">
+      <!-- Posts -->
       <article v-for="content in contents" :key="content.url" class="shrink-0 px-2">
         <template v-if="content.ogImage">
-        <a :href="content.url" target="_blank" rel="noopener noreferrer" class="relative">
-          <img :src="content.ogImage" :alt="content.title" class="h-32 w-auto object-cover rounded-lg shadow-md"/>
-          <div v-if="content.isOverlayTitle" class="absolute w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.4)] p-4 top-0 left-0">
-            <p class="truncate text-white">{{ content.title }}</p>
-          </div>
-        </a>
+          <a :href="content.url" target="_blank" rel="noopener noreferrer" class="relative">
+            <img :src="content.ogImage" :alt="content.title" class="h-32 w-auto object-cover rounded-lg shadow-md" />
+            <div v-if="content.isOverlayTitle"
+              class="absolute w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.4)] p-4 top-0 left-0">
+              <p class="truncate text-white">{{ content.title }}</p>
+            </div>
+          </a>
         </template>
       </article>
+      <!-- "More" link -->
       <article class="shrink-0 px-5 grid place-items-center bg-opacity-50">
         <a class="" :href="moreLink" target="_blank">
           👉 more...
         </a>
       </article>
     </div>
-    <div :class="{'before-backdrop': true, 'opacity-0': hideBeforeBackdrop}" />
-    <div :class="{'after-backdrop': true, 'opacity-0': hideAfterBackdrop}" />
+
+    <!-- Gradient backdrops -->
+    <div :class="{ 'before-backdrop': true, 'opacity-0': hideBeforeBackdrop }" />
+    <div :class="{ 'after-backdrop': true, 'opacity-0': hideAfterBackdrop }" />
   </div>
 </template>
 
@@ -56,7 +66,8 @@ const hideAfterBackdrop = computed(() => arrivedState.right);
   background: linear-gradient(to right, rgba(var(--vp-c-bg-rgb), 0) 0%, rgba(var(--vp-c-bg-rgb), 100) 100%);
 }
 
-.after-backdrop, .before-backdrop {
+.after-backdrop,
+.before-backdrop {
   pointer-events: none;
   position: absolute;
   cursor: pointer;

@@ -8,12 +8,12 @@ layout: doc
 
 ## 基本情報
 
-| key      | value                                                         |
-| -------- | ------------------------------------------------------------- |
-| 氏名     | 金　悧娜（Rhina Kim）                                         |
-| 生年月日 | 1999/03/03                                                    |
-| 居住地   | 東京 :left_right_arrow: モントリオール                        |
-| 最終学歴 | コンコルディア大学 工学部 コンピュータサイエンス科 (Co-op) 卒 |
+| key      | value                                                                            |
+| -------- | -------------------------------------------------------------------------------- |
+| 氏名     | 金　悧娜 (Rhina Kim)                                                             |
+| 生年月日 | 1999/03/03 (<Age />)                                                             |
+| 居住地   | 東京 :left_right_arrow: モントリオール                                           |
+| 最終学歴 | コンコルディア大学 工学部 コンピュータサイエンス学科 (Co-op) <br/> 2023年6月卒業 |
 
 
 ## 各種アカウント
@@ -21,8 +21,8 @@ layout: doc
 #### ポートフォリオ
 
 <!-- Portfolio Website -->
-<div>
-  <a href="https://chihiroanihr-portfolio.vercel.app/" style="font-weight: bold; display: flex; gap: 4px; max-width: fit-content; align-items: center; padding: 5px 7px; text-decoration: none; color: #7F6350; border: 1px solid #E2E2E3; border-radius: 2px;">
+<div style="margin-top: 16px;">
+  <a href="https://chihiroanihr-portfolio.vercel.app/" class="portfolio-website">
     <img src="https://chihiroanihr-portfolio.vercel.app/assets/logo-110f07e6.png" alt="Image description" width="28"/>
     RHINA's Portfolio Website
   </a>
@@ -58,6 +58,7 @@ layout: doc
   <!-- Speaker Deck -->
   <!-- <a href="https://speakerdeck.com/chihiroanihr" target="_blank"><img alt="SpeakerDeck" src="https://img.shields.io/badge/chihiroanihr-009287.svg?&style=flat-square&logo=SpeakerDeck&logoColor=white" /></a> -->
 </p>
+
 
 ## 職務経歴
 
@@ -152,6 +153,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
     - [https://speakerdeck.com/kawamataryo/improvement-at-the-fire-department](https://speakerdeck.com/kawamataryo/improvement-at-the-fire-department)
 :::
 
+
 ## 技術スタック
 
 <div style="display: grid; gap: 15px; grid-col; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
@@ -188,6 +190,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 </div>
 </div>
 
+
 ## スキル
 
 - TypeScript, React, Vue.js でのフロントエンド開発・設計
@@ -199,6 +202,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 - アジャイル、スクラム開発の進行
 - 未経験技術への迅速なキャッチアップ、アウトプット
 
+
 ## 語学力
 
 - 日本語：ネイティブレベル
@@ -208,6 +212,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 
 ※ ネイティブレベル：会話、文書読解、ビジネス文書作成、プレゼン、会議、メール交換可能
 
+
 ## 意欲・興味
 
 - ユーザーファーストなプロダクトを作っていく過程が好きです。言われたとおりにただ作るのではなく、機能要件に対しても一緒に考えていけるチームだとより良いです
@@ -216,6 +221,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 - どうしたら使いやすいデザインになるか、ユーザーの視点に立って考えることが好きです
 - ペアプロ・モブプロを積極的に取り入れ、チームで暗黙知の共有や、技術の継承を行っていきたいと思っています
 - 新しい挑戦（技術的なもの・制度的なもの）に積極的に取り組める環境が好きです
+
 
 ## 就業条件
 
@@ -230,25 +236,31 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
 
 ### アウトプット
 
-#### Zenn
-[https://zenn.dev/ryo_kawamata](https://zenn.dev/ryo_kawamata)
+#### Zenn <a class="arrow-link">Visit<span class="arrow"></span></a>
+[https://zenn.dev/chihiroanihr](https://zenn.dev/chihiroanihr)
 
 <ZennArticles />
 
 #### Qiita
-[https://qiita.com/ryo2132](https://qiita.com/ryo2132)
+[https://qiita.com/chihiroanihr](https://qiita.com/chihiroanihr)
 
 <QiitaArticles />
 
 #### note
-[https://note.com/ryo_kawamata](https://note.com/ryo_kawamata)
+[https://note.com/chihiroanihr](https://note.com/chihiroanihr)
 
 <NoteArticles />
 
+#### Medium
+[https://medium.com/@chihiroanihr](https://medium.com/@chihiroanihr)
+
+<MediumArticles />
+
 #### SpeakerDeck
-[https://speakerdeck.com/kawamataryo](https://speakerdeck.com/kawamataryo)
+[https://speakerdeck.com/chihiroanihr](https://speakerdeck.com/chihiroanihr)
 
 <SpeakerDeckSlides />
+
 
 ### 副業
 
@@ -264,6 +276,7 @@ AI ヘッドハンティングサービス LAPRAS SCOUT の開発。
   - 担当：実装
   - 使用技術：TypeScript, React
   - BugFix, 新機能のフロントエンド実装を担当
+
 
 ### その他
 
